@@ -11,7 +11,7 @@ int main()
   while (ncases--)
   {
     int n, k;
-    scanf("%i%i", &n, &k);
+    scanf("%i %i", &n, &k);
     vector<int> arr(n);
     for (auto &x : arr)
       scanf("%i", &x);

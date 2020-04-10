@@ -19,8 +19,8 @@ int main()
         {
             if ((arr[0] % 2 == 0) != (arr[i] % 2 == 0))
             {
-
                 ans = 0;
+                continue;
             }
         }
         if (ans)
