@@ -13,4 +13,7 @@ int main(){
         ans = (24-h) * 60 - m;
         printf("%d\n",ans%1440);
     }
+
+    return 0;
+    
 }
